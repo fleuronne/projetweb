@@ -18,3 +18,4 @@ public interface ReservationMapper {
     ReservationDto toDto(Reservation reservation);
 
     void copy(ReservationDto reservationDto, @MappingTarget Reservation reservation);
+}
