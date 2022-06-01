@@ -12,7 +12,7 @@ public class VoyageDto {
     private  String villedepart;
     private  String villearrivee;
     private  String heuredepart;
-    private String datedepart;
+    private   String datedepart;
     private Ville idvilledepart;
     private  Ville idvillearrivee;
 

@@ -15,6 +15,15 @@ public class Reservation {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idreservation;
+
+    public Long getIdreservation() {
+        return idreservation;
+    }
+
+    public void setIdreservation(Long idreservation) {
+        this.idreservation = idreservation;
+    }
+
     @Column( nullable = false)
 
 

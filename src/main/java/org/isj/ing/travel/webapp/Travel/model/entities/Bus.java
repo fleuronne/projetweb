@@ -13,7 +13,16 @@ import javax.persistence.*;
 public class Bus {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long idBus;
+    private Long idbus;
+
+    public Long getIdbus() {
+        return idbus;
+    }
+
+    public void setIdbus(Long idbus) {
+        this.idbus = idbus;
+    }
+
     @Column(nullable = false)
     private String numeroBus;
     private  String categorieBus;
