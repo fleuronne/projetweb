@@ -15,6 +15,14 @@ public class Voyage {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idvoyage;
 
+    public Long getIdvoyage() {
+        return idvoyage;
+    }
+
+    public void setIdvoyage(Long idvoyage) {
+        this.idvoyage = idvoyage;
+    }
+
     @Column(nullable = false)
     private  String villedepart;
     private  String villearrivee;

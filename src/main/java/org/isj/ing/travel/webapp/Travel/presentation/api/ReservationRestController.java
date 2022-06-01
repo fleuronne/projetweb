@@ -21,8 +21,8 @@ public class ReservationRestController {
     private IReservation iReservation;
 
     @PostMapping(value = "/save")
-    public void enregistrer (@RequestBody ReservationDto reservationDto ) {
-        ReservationRestController.log.info("enregistrer_reservation");
+    public void enregistrer (@RequestBody ReservationDto create ) {
+        //ReservationRestController.log.info("enregistrer-revervation");
 
     }
 
@@ -33,7 +33,7 @@ public class ReservationRestController {
     }
 
     @GetMapping("/all")
-    public ResponseEntity<List<ReservationDto>> getAllActes() {
+    public ResponseEntity<List<ReservationDto>> getAllReservation() {
         return ResponseEntity.ok(iReservation.listreservation());
     }
 
