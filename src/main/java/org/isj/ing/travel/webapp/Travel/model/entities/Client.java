@@ -15,8 +15,17 @@ import javax.persistence.Id;
 @Entity
 public class Client {
     @Id
+
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idclient;
+
+    public Long getIdclient() {
+        return idclient;
+    }
+
+    public void setIdreservation(Long idclient) {
+        this.idclient = idclient;
+    }
 
     private String nom;
     private String prenom;

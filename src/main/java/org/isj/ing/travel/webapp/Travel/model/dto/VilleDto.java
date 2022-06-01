@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class VilleDto {
-    private String nomville;
+    private String nomvilledepart;
+    private String nomvillearrivee;
 
 }

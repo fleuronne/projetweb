@@ -15,7 +15,17 @@ public class Ville {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idville;
 
+    public Long getIdville() {
+
+        return idville;
+    }
+
+    public void setIdville(Long idbus) {
+
+        this.idville = idville;
+    }
     @Column(nullable = false)
-    private String nomville;
+    private String nomvilledepart;
+    private String nomvillearrivee;
 
 }
