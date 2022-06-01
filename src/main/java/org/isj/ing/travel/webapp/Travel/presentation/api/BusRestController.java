@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RequestMapping("/api/voyage")
+@RequestMapping("/api/Bus")
 @RestController
 @Slf4j
 public class BusRestController {
@@ -21,6 +21,7 @@ public class BusRestController {
     @PostMapping(value = "/save")
     public void enregistrer (@RequestBody BusDto create ) {
         //VoyageRestController.log.info("enregistrer_voyage");
+        iBus.saveBus(create);
 
     }
     @GetMapping("/{numeroBus}/data")

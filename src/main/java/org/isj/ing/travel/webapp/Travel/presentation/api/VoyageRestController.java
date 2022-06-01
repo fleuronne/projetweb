@@ -22,6 +22,7 @@ public class VoyageRestController {
     @PostMapping(value = "/save")
     public void enregistrer (@RequestBody VoyageDto create ) {
         //VoyageRestController.log.info("enregistrer_voyage");
+        iVoyage.saveVoyage(create);
 
     }
     @GetMapping("/{villedepart}/data")

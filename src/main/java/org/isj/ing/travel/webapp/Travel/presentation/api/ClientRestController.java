@@ -21,7 +21,9 @@ public class ClientRestController {
 
     @PostMapping(value = "/save")
     public void enregistrer (@RequestBody ClientDto create ) {
-        //ReservationRestController.log.info("enregistrer-revervation");
+
+       // ClientRestController.log.info("enregistrer-revervation");
+        iClient.saveClient(create);
 
     }
 
