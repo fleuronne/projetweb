@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+#fix-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  height: 60px;
+  background-color: #17a2b8;
+}
+#fix-bar .logo {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  transform: translate3d(-50%, 0, 0);
+  transition: transform 0.5s ease;
+}
+#fix-bar .logo a {
+  display: block;
+  color: #fff;
+  margin-top: -56px;
+  margin-left: 79px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 24px;
+  width: 60px;
+  height: 24px;
+  padding: 18px 16px 18px 24px;
+  box-sizing: content-box;
+}
+#fix-bar .push {
+  position: relative;
+  left: 0;
+  height: 100%;
+  background-color: #1f1f1f ;
+  transition: transform 0.5s ease;
+}
+.hamburguer {
+  width: 72px;
+  height: 60px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+.hamburguer span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 24px;
+  background: #fff;
+  opacity: 1;
+  left: 24px;
+  transform: rotate(0deg);
+  transition: 0.3s ease-in-out;
+}
+.hamburguer span:nth-child(1) {
+  top: 20px;
+}
+.hamburguer span:nth-child(2),
+.hamburguer span:nth-child(3) {
+  top: 28px;
+}
+.hamburguer span:nth-child(4) {
+  top: 36px;
+}
+#canvas {
+  position: relative;
+  height: 100%;
+  padding-top: 60px;
+  overflow: hidden;
+}
+#nav {
+  overflow-y: scroll;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  transform: translate3d(-50%, 0, 0);
+  transition: transform 0.5s ease;
+  padding-top: 12px;
+  padding-bottom: 60px;
+}
+#nav a {
+   text-decoration: none;
+   color: #333333;
+    display: block;
+    padding: 19px 26px;
+    font: 17px/1 sans-serif;
+    font-weight: 700;
+    margin-left: -3px;
+}
+#nav a:hover {
+  background-color: #17a2b8;
+}
+#nav .site-menu {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 60px;
+}
+#nav .copy {
+  position: absolute;
+  bottom: 0;
+  padding: 41px 25px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+#content {
+  background-color: #fff;
+  overflow-y: scroll;
+  position: relative;
+  left: 0;
+  height: 100%;
+  transition: transform 0.5s ease;
+  transform: translate3d(0, 0, 0);
+  padding: 20px;
+}
+.mask {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease, z-index 0s 0.5s;
+  background-color: rgba(0,0,0,0.5);
+}
+input#show-menu {
+  position: absolute;
+  opacity: 0;
+}
+input#show-menu:checked ~ #fix-bar .push {
+  transform: translate3d(250px, 0, 0);
+}
+input#show-menu:checked ~ #fix-bar .hamburguer span:nth-child(1),
+input#show-menu:checked ~ #fix-bar .hamburguer span:nth-child(4) {
+  top: 28px;
+  width: 0;
+  left: 50%;
+}
+input#show-menu:checked ~ #fix-bar .hamburguer span:nth-child(2) {
+  transform: rotate(45deg);
+}
+input#show-menu:checked ~ #fix-bar .hamburguer span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+input#show-menu:checked ~ #canvas .mask {
+  z-index: 1;
+  opacity: 1;
+  transform: translate3d(250px, 0, 0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+input#show-menu:checked ~ #canvas #nav,
+input#show-menu:checked ~ #fix-bar .logo {
+  transform: translate3d(0, 0, 0);
+}
+input#show-menu:checked ~ #canvas #content {
+  transform: translate3d(250px, 0, 0);
+}
+img {
+  vertical-align: middle !important;
+  border-style: none !important;
+  width: 60px !important;
+}
+.parametre{
+  margin-top: 1px;
+}
+legend{
+  border-bottom: 1px solid #dee2e6;
+  margin-top: 124px;
+}
+[type=reset], [type=submit], button, html [type=button] {
+  -webkit-appearance: button;
+  margin-top: -42px;
+  margin-left: 920px;
+  width: 162px;
+}
+input {
+  overflow: visible;
+  width: 904px;
+  margin-left: 161px;
+  border-radius: 43px;
+  height: 43px;
+}
+.post-media img {
+  margin-top: -57px !important;
+    width: 613px !important;
+    height: 521px !important;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 789px 534px;
+}
+h3 {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 62px;
+  margin: 0 0 25px;
+  padding: 0;
+  text-transform: none;
+  margin-left: -972px;
+  text-decoration: underline;
+  font-family: serif;
+  margin-left: -179px;
+  margin-top: 75px;
+}
+h2 {
+  color: #5a5a5a;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 18px 0;
+  margin-left: -167px;
+  margin-top: 47px;
+  font-size: 22px;
+}

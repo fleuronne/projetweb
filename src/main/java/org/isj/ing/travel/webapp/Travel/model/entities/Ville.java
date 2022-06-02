@@ -20,7 +20,7 @@ public class Ville {
         return idville;
     }
 
-    public void setIdville(Long idbus) {
+    public void setIdville(Long idville) {
 
         this.idville = idville;
     }

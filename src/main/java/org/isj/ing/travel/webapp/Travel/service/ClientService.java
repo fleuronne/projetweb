@@ -7,10 +7,12 @@ import org.isj.ing.travel.webapp.Travel.model.dto.ReservationDto;
 import org.isj.ing.travel.webapp.Travel.repository.ClientRepository;
 import org.isj.ing.travel.webapp.Travel.repository.ReservationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class ClientService implements IClient {
     @Autowired
     ClientRepository clientRepository;

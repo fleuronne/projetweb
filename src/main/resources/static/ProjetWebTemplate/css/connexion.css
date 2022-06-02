@@ -1,0 +1,613 @@
+
+#rooms-form{
+	width:1007.25px;
+	height:430px;
+	padding:1em;
+	margin:1em;
+  display:inline;}
+  
+  
+  #titreform{ 
+	color:white;
+	background-color: rgba(0, 0, 255, 0.5);
+  padding:1em;}
+  /*****************************/
+  * {
+	  padding: 0;
+	  margin: 0;
+	  outline: none;
+  }
+  body {
+	  background-color: white;
+	  font-size: 14px;
+	  font-family: "Gotham Book", sans-serif;
+  }
+  a {
+	  text-decoration: none;
+	  color: #dbe0e1;
+  }
+  a:hover {
+	  color: #17a2b8;
+  }
+  li {
+	  list-style: none;
+  }
+  h2 {
+	  font-weight: normal;
+  
+  }
+  /*  containers */
+  .thecontainer {
+	  margin: 20px auto;
+	  background-color: #ccc;
+	  overflow: hidden;
+	  border-radius: 4px;
+	  box-shadow: 0 0 10px rgba(0,0,0,0.2), 0 2px 3px rgba(0,0,0,0.4);
+  }
+  /* icons cloudinary */
+  .thecontainer .icon {
+	  background-image: url('https://res.cloudinary.com/dw369yzsh/image/upload/v1483213851/icons_wykol9.png');
+	  width: 27px;
+	  height: 30px;
+  }
+  /* police */
+  .calendar th, .graph {
+	  font-family: "Gotham Medium", sans-serif;
+	  color: #666666;
+  }
+  /*buttons*/
+  .thecontainer button {
+	  text-transform: uppercase;
+	  border: none;
+	  background-color: #0a899c;
+	  color: #fff;
+	  margin: 0 auto;
+	  display: block;
+	  box-shadow: 0 3px 5px rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.8);
+	  border-radius: 4px;
+	  font-size: 15px;
+	  font-family: "Gotham Book", sans-serif;
+	  cursor: pointer;
+	  -webkit-transition: background-color 0.2s; 
+		 -moz-transition: background-color 0.2s; 
+		  -ms-transition: background-color 0.2s; 
+		   -o-transition: background-color 0.2s; 
+			  transition: background-color 0.2s; 
+  }
+  /* hover des bouttons */
+  .thecontainer button:hover {
+	  background-color: #17a2b8;
+  }
+  .thecontainer button:active {
+	  background-color: #17a2b8;
+	  position: relative;
+	  top: 2px;
+  }
+  button.button-big {
+	  width: 296px;
+	  height: 58px;
+  }
+  /*inputs format et design*/
+  .input-text {
+	  border-radius: 2px;
+	  background-color: #f4f4f4;
+	  box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+	  padding-left: 11px;
+	  position: relative;
+	  height: 46px;
+	  line-height: 46px;
+  }
+  
+  .input-text .icon {
+	  position: absolute;
+	  right: 4px;
+	  top: 4px;
+  }
+  .input-text2 {
+	border-radius: 2px;
+	background-color: #f4f4f4;
+	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+	padding-left: 11px;
+	position: relative;
+	height: 46px;
+	line-height: 46px;
+}
+
+.input-text2 .icon {
+	position: absolute;
+	right: 4px;
+	top: 4px;
+}
+  .input-text input, .input-text textarea, .div-file label {
+	  border: none;
+	  background-color: transparent;
+	  font-family: "Gotham Light", sans-serif;
+	  color:#999999;
+	  margin-top: -48px
+  }
+  .input-text2 input, .input-text2 textarea, .div-file label {
+	border: none;
+	background-color: transparent;
+	font-family: "Gotham Light", sans-serif;
+	color:#999999;
+}
+  /*placeholders hell et design */
+  .thecontainer .input-text input::-webkit-input-placeholder, .thecontainer .input-text textarea::-webkit-input-placeholder {
+	  color:#999999;
+	  font-family: "Gotham Light", sans-serif;
+	  font-size: 14px;
+  }
+  .thecontainer .input-text input::-moz-placeholder, .thecontainer .input-text textarea::-moz-placeholder {
+	  color:#999999;
+	  font-family: "Gotham Light", sans-serif;
+	  font-size: 14px;
+  }
+  .thecontainer .input-text input:-moz-placeholder, .thecontainer .input-text textarea:-moz-placeholder {
+	  color:#999999;
+	  font-family: "Gotham Light", sans-serif;
+	  font-size: 14px;
+  }
+  .thecontainer .input-text input:-ms-input-placeholder, .thecontainer .input-text textarea:-ms-input-placeholder {
+	  color:#999999;
+	  font-family: "Gotham Light", sans-serif;
+	  font-size: 14px;
+  }
+   /*placeholders hell et design2 */
+   .thecontainer .input-text2 input::-webkit-input-placeholder, .thecontainer .input-text2 textarea::-webkit-input-placeholder {
+	color:#999999;
+	font-family: "Gotham Light", sans-serif;
+	font-size: 14px;
+}
+.thecontainer .input-text2 input::-moz-placeholder, .thecontainer .input-text2 textarea::-moz-placeholder {
+	color:#999999;
+	font-family: "Gotham Light", sans-serif;
+	font-size: 14px;
+}
+.thecontainer .input-text2 input:-moz-placeholder, .thecontainer .input-text2 textarea:-moz-placeholder {
+	color:#999999;
+	font-family: "Gotham Light", sans-serif;
+	font-size: 14px;
+}
+.thecontainer .input-text2 input:-ms-input-placeholder, .thecontainer .input-text2 textarea:-ms-input-placeholder {
+	color:#999999;
+	font-family: "Gotham Light", sans-serif;
+	font-size: 14px;
+}
+
+  
+  #overlay {
+	  z-index:3; 
+	  position:fixed; 
+	  background-color:#000; 
+	  opacity:0.8;
+	  width:100%; 
+	  height:100%; 
+	  top:0; 
+	  left:0;
+	  display: none;
+  }
+  
+  
+  /***** Calendar *****/
+  
+  .calendar {
+	  width: 346px;
+	  height: 426px;
+	  position: fixed;
+	  top: 50%; 
+	  left: 50%; 
+	  margin-top: -213px;
+	  margin-left: -173px;
+	  z-index: 5;
+	  display: none;
+  }
+  .calendar .header {
+	  background-color: #404a58;
+	  color: #fff;
+	  font-size: 17px;
+	  height: 64px;
+	  line-height: 64px;
+	  text-align: center;
+	  position: relative;
+  }
+  .calendar .arr {
+	  position: absolute;
+	  width: 13px;
+	  height: 30px;
+	  cursor: pointer;
+	  top: 25px;
+  }
+  .calendar .prev {
+	  left: 38px;
+  }
+  .calendar .next {
+	  background-position: 0 -30px;
+	  right: 38px;
+  
+  }
+  /*table*/
+  .calendar table {
+	  width: 287px;
+	  height: 248px;
+	  margin: 11px auto 20px auto;
+	  text-align: center;
+	  vertical-align: middle;
+	  color: #666666;
+  }
+  .calendar tr, td {
+	  width: 41px;
+  }
+  .calendar td:not(.notCurMonth) {
+	  cursor: pointer;
+	  -webkit-transition: background-color 0.2s; 
+		 -moz-transition: background-color 0.2s; 
+		  -ms-transition: background-color 0.2s; 
+		   -o-transition: background-color 0.2s; 
+			  transition: background-color 0.2s;
+  }
+  .calendar td:not(.notCurMonth):not(.curDay):hover {
+	  background-color: #f4f4f4;
+	  border-radius: 19px;
+  }
+  .calendar .holiday {
+	  font-weight: bold;
+	  color: #fb6362;
+  }
+  .calendar .curDay {
+	  font-weight: bold;
+	  color: #fff;
+	  background-color: #fb6362;
+	  border-radius: 19px;
+  }
+  .calendar .notCurMonth {
+	  color: #c5c5c5;
+  }
+  
+  
+  /***** Booking form *****/
+  
+  .booking {
+	  width: 730px;
+	  height: 804px;
+	  border-top: 15px double #0a899c;
+    border-right: 5px solid #0a899c;
+    border-bottom: 5px solid #0a899c;
+    border-left: 16px double #0a899c;
+}
+
+  .is-sent{
+	  animation: launch 1s ease-in-out forwards
+  } 
+  @keyframes launch {
+	0% {
+			  transform: translateY(0);
+	}
+	10%, 15% {
+			  transform: translateY(20px);
+	}
+	100% {
+			  transform: translateY(-700px);
+	}
+	
+  }
+  .booking .resaheader {
+	  width: 100%;
+	  height: 180px;
+	  background-image: url('http://www.equinoxmagazine.fr/wp-content/uploads/2016/10/tour-eiffel.jpg');
+	 background-repeat:no-repeat; 
+	-webkit-background-size: cover;
+	  position: relative;
+	  color: #fff;
+	  margin-top: -189px;
+  }
+  .booking .resaheader div {
+	  position: absolute;
+	  left: 22px;
+	  top: 117px;
+  }
+  .booking .resaheader h2 {
+	  font-size: 25px;
+  }
+  .booking .resaheader p {
+	  font-family: "Gotham Light", sans-serif;
+	  margin: 4px 0 0 21px;
+  }
+  .booking .resaheader .icon {
+	  background-position: 0 -60px;
+	  position: absolute;
+	  left: 4px;
+	  top: 33px;
+   
+  }
+  /*inputs*/
+  
+  
+  .booking .dates, .booking .persons {
+	  width: 296px;
+	  margin: 30px auto 0 auto;
+  }
+  .booking .dates, .booking .persons {
+	width: 296px;
+	margin: 30px auto 0 auto;
+  }
+  .booking label:not(.checkbox) {
+	  display: block;
+	  margin-left: -485px;
+      margin-top: 25px;
+}
+  
+  .booking .dates .input-text {
+	  margin-top: 10px;
+	  margin-right: 200px;
+      margin-left: -173px;
+  }
+ 
+  .booking .dates .input-text:nth-child(2) {
+	  margin-bottom: 20px;
+  }
+  .booking .input-text .icon {
+	  width: 36px;
+	  height: 36px;
+	  background-color: #17a2b8;
+	  border-radius: 2px;
+	  background-position: 10px -80px;
+	  cursor: pointer;
+  }
+  /*checkbox*/
+  .div-chck {
+	  position: relative;
+	  margin-top: 16px;
+  }
+  .div-chck input, .div-chck .icon.input-text  {
+	  top: -2px;
+	  left: 0;
+	  position: absolute;
+	  width: 23px;
+	  height: 23px;
+  }
+  .div-chck input {
+	  opacity: 0;
+	  z-index: 1;
+  }
+  .div-chck .icon.input-text {
+	  background-position: -30px -415px;
+	  background-repeat: no-repeat;
+	  padding: 0;
+	  margin: 0;
+  }
+  .div-chck input:checked+.icon {
+	  background-position: 4px -415px;
+  }
+  .div-chck label{
+	  margin-left: 34px;
+  }
+  /*selects*/
+  .booking .persons li {
+	  display: inline-block;
+	  font-size: 0;
+	  width: 45%;
+  }
+  .booking .persons li:last-child {
+	  padding-left: 49px;
+  }
+  .booking .persons .droit  {
+	  font-size: 14px;
+      margin-left: -298px;
+	  margin-top: 20px;
+  }
+
+  .booking .persons .droit2  {
+	font-size: 14px;
+	margin-left: -300px;
+	margin-top: -24px;
+}
+  .booking .persons .gauche  {
+	font-size: 14px;
+	margin-left: 8px;
+	width: 166px;
+	
+  }
+  .booking .persons .input-text {
+	  width: 138px;
+	  height: 45px;
+	  padding: 0;
+	  margin-top: 9px;
+  }
+  .booking .chambres .input-text{
+	width: 244px;
+    height: 47px;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: -169px;
+	  
+  }
+  .booking .chambres .droit .input-text{
+	width: 244px;
+    height: 47px;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: -169px;
+	  
+  }
+  .booking .chambres3 .input-text{
+	width: 244px;
+    height: 47px;
+    padding: 0;
+    margin-top: -5px;
+    margin-left: -169px;
+	  
+  }
+  .booking .chambres2 .input-text{
+	width: 238px;
+	  height: 45px;
+	  padding: 0;
+	  margin-top: 9px;
+  }
+  .booking .persons select {
+	  font-size: 14px;
+	  width: 100%;
+	  height: 100%;
+	  background: transparent;
+	  border: none;
+	  font-size: 16px;
+	  color: #404a58;
+	  padding-left: 9px;
+	  position: relative;
+	  z-index: 1;
+	  -webkit-appearance: none;
+		 -moz-appearance: none;
+		  -ms-appearance: none;
+		   -o-appearance: none;
+			  appearance: none;
+  }
+  .booking .persons option {
+	  background-color: #f4f4f4;
+  } 
+  .booking .persons option:hover {
+	  background-color: red;
+  }
+  .booking .persons .icon {
+	  background-position: 15px -106px;
+  }
+  .booking .persons .icon2 {
+    background-position: 118px -79px;
+}
+.booking .input-text .icon2 {
+    width: 36px;
+    height: 36px;
+    background-color: #17a2b8;
+    border-radius: 2px;
+    background-position: 10px -80px;
+    cursor: pointer;
+}
+.booking .persons .icon2 {
+    background-position: 15px -106px;
+}
+.booking .input-text .icon2 {
+    width: 36px;
+    height: 36px;
+    background-color: #17a2b8;
+    border-radius: 2px;
+    background-position: 10px -80px;
+    cursor: pointer;
+}
+.input-text .icon2 {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.thecontainer .icon2 {
+    background-image: url(https://res.cloudinary.com/dw369yzsh/image/upload/v1483213851/icons_wykol9.png);
+    width: 27px;
+    height: 30px;
+}
+
+
+
+.booking .persons .icon3 {
+    background-position: 118px -79px;
+}
+.booking .input-text .icon3 {
+    width: 36px;
+    height: 36px;
+    background-color: #17a2b8;
+    border-radius: 2px;
+    background-position: 10px -80px;
+    cursor: pointer;
+}
+.booking .persons .icon3 {
+    background-position: 15px -106px;
+}
+.booking .input-text .icon3 {
+    width: 36px;
+    height: 36px;
+    background-color: #17a2b8;
+    border-radius: 2px;
+    background-position: 10px -80px;
+    cursor: pointer;
+}
+.input-text .icon3 {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.thecontainer .icon3 {
+    background-image: url(https://res.cloudinary.com/dw369yzsh/image/upload/v1483213851/icons_wykol9.png);
+    width: 27px;
+    height: 30px;
+}
+  
+  /*button*/
+  .booking .button-big {
+	  position: relative;
+	  padding-left: 20px;
+	  margin-top: 68px;;
+  }
+  .booking .button-big .icon {
+	  background-position: 0 -150px;
+	  position: absolute;
+	  left: 59px;
+  }
+  .noir {
+      color: #000;
+  }
+  .container-bouton{
+	  display: grid;
+	  grid-template-columns: 417px 132px;
+	  padding-top: -77px;
+  }
+  .place{
+	display: grid;
+	grid-template-columns: 241px 100px; 
+  }
+.border2{
+	border-top: 2px solid #d2d9df!important; 
+}
+.pading{
+	padding-top: 20px;
+}
+.h5p{
+	margin-top: 25px;
+}
+.text-center {
+    text-align: center!important;
+    margin-top: -290px!important;
+}  
+.form-group {
+    margin-bottom: 1rem!important;
+    margin-top: 31px!important;
+} 
+  
+.info-perso h2{
+    margin-top: 20px;
+}
+.payement{
+    border-top: 2px solid  #94a3a2;
+	
+} 
+.payement h2{
+ margin-top: 20px;	
+}
+.entete-gauche h2{
+	float: left;
+	margin-top: 15px;
+	margin-left: 14px
+}
+.entete-droite h2 {
+	float: right;
+	margin-top: 15px;
+    margin-right: 32px
+}
+legend{
+	border-bottom: 5px solid #f8f9fa;
+	margin-top: 49px;
+    width: 711px;
+}
+.entete{
+	background-color: #17a2b8;
+}  
+legend .deux {
+    border-bottom: 5px solid #f8f9fa;
+    margin-top: -24px;
+    width: 711px;
+}

@@ -22,7 +22,7 @@ public class ReservationRestController {
 
     @PostMapping(value = "/save")
     public void enregistrer (@RequestBody ReservationDto create ) {
-        //ReservationRestController.log.info("enregistrer-revervation");
+        //ReservationRestController.log.info("enregistrer-reservation");
         iReservation.saveReservation(create);
 
     }

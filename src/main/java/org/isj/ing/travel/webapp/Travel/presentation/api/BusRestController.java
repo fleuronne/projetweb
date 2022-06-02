@@ -20,7 +20,6 @@ public class BusRestController {
 
     @PostMapping(value = "/save")
     public void enregistrer (@RequestBody BusDto create ) {
-        //VoyageRestController.log.info("enregistrer_voyage");
         iBus.saveBus(create);
 
     }

@@ -21,13 +21,13 @@ public class VilleRestController {
 
     @PostMapping(value = "/save")
     public void enregistrer (@RequestBody VilleDto create ) {
-        //ReservationRestController.log.info("enregistrer-revervation");
+        //VilleRestController.log.info("enregistrer-ville");
         iVille.saveVille(create);
 
     }
 
     @GetMapping("/{nomvillearrivee}/data")
-    public ResponseEntity<VilleDto> getActeByActe(@PathVariable String nomvillearrivee){
+    public ResponseEntity<VilleDto> getVilleByVille(@PathVariable String nomvillearrivee){
 
         return ResponseEntity.ok(iVille.searchVilleNomVillearrivee(nomvillearrivee));
     }

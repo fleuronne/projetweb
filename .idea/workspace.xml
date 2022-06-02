@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da6971c8-a503-4440-83bb-7436a3c31b74" name="Changes" comment="vinny">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/presentation/controller/BusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/Formulaire-reservation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/Formulaire-voyage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/FormulaireClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/ListeDesReservation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/Prix-ticket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/Menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/bootstrap-touch-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/bootstrap.min2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/boxicons/css/animations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/boxicons/css/boxicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/boxicons/css/boxicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/boxicons/css/transformations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/boxicons/fonts/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/boxicons/fonts/boxicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/boxicons/fonts/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/boxicons/fonts/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/boxicons/fonts/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/connexion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/custom2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/formulairerecherche.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/pr_loading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/prettyPhoto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/remixicon/remixicon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/remixicon/remixicon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/remixicon/remixicon.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/remixicon/remixicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/remixicon/remixicon.symbol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/remixicon/remixicon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/remixicon/remixicon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/remixicon/remixicon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/style-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/style3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/styleAgence.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/table-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/timeline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/to-do.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/css/versions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/fonts/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/fonts/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/fonts/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/Capture.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/IMG_1793.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/about_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/about_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/agencegeneral.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/agences.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/bus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/bus2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/bus3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/bus4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/bus5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/bus6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/bus7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/bus8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/bus9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/client.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/fines.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/general.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/hosting_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/hosting_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/hosting_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/images (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/images (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/images (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/img-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/logo-hosting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/logo_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/logo_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/logo_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/logo_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/logo_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/logo_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/logobus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/logobus1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/logopotentiel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/parallax_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_rounded/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_rounded/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_rounded/contentPattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_rounded/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_rounded/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_rounded/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_square/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_square/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_square/contentPattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_square/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_square/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/dark_square/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/default/default_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/default/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/default/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/default/sprite_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/default/sprite_prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/default/sprite_x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/default/sprite_y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/facebook/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/facebook/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/facebook/contentPatternBottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/facebook/contentPatternLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/facebook/contentPatternRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/facebook/contentPatternTop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/facebook/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/facebook/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/facebook/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/light_rounded/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/light_rounded/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/light_rounded/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/light_rounded/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/light_rounded/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/light_square/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/light_square/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/light_square/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/light_square/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/prettyPhoto/light_square/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/reservationbus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/secondimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/secondimage1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/slider-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/slider-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/slider-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/telechargement(3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/testi_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/testi_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/testi_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/ticket_sms_keolis_versailles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/touristic.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/téléchargement (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/téléchargement (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/téléchargement (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/téléchargement (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/téléchargement (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/téléchargement (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/téléchargement (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/téléchargement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/téléchargement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/images/world-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/js/01-custom-places-example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/js/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/js/mapsed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/js/modernizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/js/timeline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/menu14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/pasDeplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ProjetWebTemplate/rechercher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/_head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/_header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/TravelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/TravelApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/mapper/ClientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/mapper/ClientMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/model/entities/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/model/entities/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/BusRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/BusRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/ClientRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/ClientRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/ReservationRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/ReservationRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/VilleRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/VilleRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isj/ing/travel/webapp/Travel/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="29kiZHUFRfspE4tyS9mtPQULoFT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENAÏQUE\projetweb\src\main\resources\static" />
+      <recent name="C:\Users\LENAÏQUE\projetweb\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LENAÏQUE\projetweb\src\main\resources\static\ProjetWebTemplate\css" />
+      <recent name="C:\Users\LENAÏQUE\projetweb\src\main\resources\static\ProjetWebTemplate" />
+      <recent name="C:\Users\LENAÏQUE\projetweb\src\main\resources\templates" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.isj.ing.travel.webapp.Travel.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TravelApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.isj.ing.travel.webapp.Travel.TravelApplication" />
+      <module name="Travel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.isj.ing.travel.webapp.Travel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TravelApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da6971c8-a503-4440-83bb-7436a3c31b74" name="Changes" comment="" />
+      <created>1653663538255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653663538255</updated>
+    </task>
+    <task id="LOCAL-00001" summary="creation des packages et classes">
+      <created>1653665671821</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653665671821</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creation des packages et classes">
+      <created>1653778990430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653778990430</updated>
+    </task>
+    <task id="LOCAL-00003" summary="backend reservation">
+      <created>1654025382776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654025382776</updated>
+    </task>
+    <task id="LOCAL-00004" summary="backend reservation">
+      <created>1654026951636</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654026951636</updated>
+    </task>
+    <task id="LOCAL-00005" summary="backend reservation et Voyage">
+      <created>1654069831044</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654069831044</updated>
+    </task>
+    <task id="LOCAL-00006" summary="backend reservation et Voyage">
+      <created>1654069934385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654069934385</updated>
+    </task>
+    <task id="LOCAL-00007" summary="backend reservation et Voyage et bus">
+      <created>1654074515909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654074515909</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/BusRestController.java&#10;#&#9;src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/VoyageRestController.java">
+      <created>1654075273631</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654075273631</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/BusRestController.java&#10;#&#9;src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/VoyageRestController.java">
+      <created>1654083315321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654083315321</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1654087190873</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654087190873</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fin du backend des differentes classes">
+      <created>1654087288317</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654087288317</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fin du backend des differentes classes">
+      <created>1654087317850</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654087317850</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creation des packages et classes de la  couche reservation" />
+    <MESSAGE value="creation des packages et classes" />
+    <MESSAGE value="backend reservation" />
+    <MESSAGE value="backend reservation et Voyage" />
+    <MESSAGE value="backend reservation et Voyage et bus" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/BusRestController.java&#10;#&#9;src/main/java/org/isj/ing/travel/webapp/Travel/presentation/api/VoyageRestController.java" />
+    <MESSAGE value="fin du backend des differentes classes" />
+    <MESSAGE value="fin du backend des differentes classes et insertion du projet" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="new" />
+    <MESSAGE value="nouveautes" />
+    <MESSAGE value="nouveau controlleur" />
+    <MESSAGE value="vinny" />
+    <option name="LAST_COMMIT_MESSAGE" value="vinny" />
+  </component>
+</project>

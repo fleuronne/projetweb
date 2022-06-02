@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<th:block th:replace="fragments/_head.html::head"></th:block>
+	<style th:inline="text">
+		#home{
+			background-image:url([[@{/ProjetWebTemplate/images/secondimage1.jpg}]]);
+		}
+	</style>
+</head>
+
+<body class="host_version">
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Compte</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">connexion</a>
+					<li><a href="#Registration" data-toggle="tab">inscription</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Nom" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Mot de passe" type="password">
+								</div>
+							</div>
+							<div class="rowconnexion">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										confirmer
+									</button>
+									<a class="for-pwd" href="javascript:;">mot de passe oublier?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Nom" type="text">
+								</div>
+							</div>
+                            <div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Prénom" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Numéro de téléphone" type="email">
+								</div>
+							</div>
+                            <div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Numéro de CNI" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Mot de passe" type="password">
+								</div>
+							</div>
+							<div class="rowconnexion">
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Enregistrer &amp; Continuer
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Suivant</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->
+
+	<!-- Start header -->
+	<th:block th:replace="fragments/_header.html::header"></th:block>
+	<!-- End header -->
+
+	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		</ol>
+
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<div id="home" class="first-section" >
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+
+										<!-- BOITE DE RESERVATION -->
+									<div id="main-content-section" data-magellan-target="main-content-section"></div>
+									<form action="" class="thecontainer booking" name="booking">
+
+									   <!-- Bouton choix du nombre d'adultes -->
+									  <ul class="persons">
+										  <li>
+										  <label>Ville actuelle</label>
+										  <div class="input-text">
+												<select name="adults">
+												<option value="1">ville 1</option>
+												<option value="2" selected="selected">Ville 1</option>
+												<option value="3">Ville 3</option>
+												<option value="4">Ville 4</option>
+												</select>
+											 <div class="icon"></div>
+										   </div>
+										  </li>
+									       <!-- Bouton choix du nombre d'enfant -->
+										   <li>
+										   <label>Destination</label>
+										   <div class="input-text">
+												<select name="children">
+												<option value="0">Ville 1</option>
+												<option value="1" selected="selected">Ville 2</option>
+
+												<option value="3">Ville 3</option>
+												<option value="4">Ville 4</option>
+												</select>
+											 <div class="icon"></div>
+										    </div>
+										</li>
+									    <!-- formulaire Chambres -->
+									   <br> <br><li class="chambres">
+										 <label>Classe</label>
+										 <div class="input-text">
+											<select name="Chambre">
+											<option value="Chambre Classique">Classe VIP</option>
+											<option value="Chambre Confort" selected="selected">Classe normale</option>
+											<option value="Chambre Deluxe">Aucune</option>
+
+											</select>
+											<div class="icon"></div>
+										 </div>
+										 </li>
+									 </ul>
+									  <!-- bouton de recherche général -->
+									  <button class="button-big" id="search"><div class="icon"></div>Rechercher</button>
+									</form>
+
+
+									<div class="col-md-12 col-sm-12 text-left">
+											<div class="big-tagline">
+												<h2 data-animation="animated zoomInRight">Viens faire tes <strong>Réservations</strong></h2>
+												<p class="lead" data-animation="animated fadeInLeft">Avec notre application pour faciliter et faciliter garantie </p>
+												<a href="#" class="hover-btn-new"><span>Contactez-nous</span></a>
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<a href="#" class="hover-btn-new"><span>Plus d'informations</span></a>
+											</div>
+									</div>
+							</div><!-- end row -->
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('images/bus5.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<!-- BOITE DE RESERVATION -->
+								<div id="main-content-section" data-magellan-target="main-content-section"></div>
+								<form action="" class="thecontainer booking" name="booking">
+
+								   <!-- Bouton choix du nombre d'adultes -->
+								  <ul class="persons">
+									  <li>
+									  <label>Ville actuelle</label>
+									  <div class="input-text">
+											<select name="adults">
+											<option value="1">ville 1</option>
+											<option value="2" selected="selected">Ville 2</option>
+											<option value="3">Ville 3</option>
+											<option value="4">Ville 4</option>
+											</select>
+										 <div class="icon"></div>
+									   </div>
+									  </li>
+									   <!-- Bouton choix du nombre d'enfant -->
+									   <li>
+									   <label>Destination</label>
+									   <div class="input-text">
+											<select name="children">
+											<option value="0">Ville 1</option>
+											<option value="1" selected="selected">Ville 2</option>
+
+											<option value="3">Ville 3</option>
+											<option value="4">Ville 4</option>
+											</select>
+										 <div class="icon"></div>
+										</div>
+									</li>
+									<!-- formulaire Chambres -->
+								   <br> <br><li class="chambres">
+									 <label>Classe</label>
+									 <div class="input-text">
+										<select name="Chambre">
+										<option value="Chambre Classique">Classe VIP</option>
+										<option value="Chambre Confort" selected="selected">Classe normale</option>
+										<option value="Chambre Deluxe">Aucune</option>
+
+										</select>
+										<div class="icon"></div>
+									 </div>
+									 </li>
+								 </ul>
+								  <!-- bouton de recherche général -->
+								  <button class="button-big" id="search"><div class="icon"></div>Rechercher</button>
+								</form>
+
+								<div class="col-md-12 col-sm-12 text-left">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight">Find the right <strong>Hosting</strong></h2>
+										<p class="lead" data-animation="animated fadeInLeft">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. </p>
+										<a href="#" class="hover-btn-new"><span>Contactez-nous</span></a>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="#" class="hover-btn-new"><span>Plus d'informations</span></a>
+									</div>
+								</div>
+							</div><!-- end row -->
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('images/secondimage1.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<!-- BOITE DE RESERVATION -->
+								<div id="main-content-section" data-magellan-target="main-content-section"></div>
+								<form action="" class="thecontainer booking" name="booking">
+
+								   <!-- Bouton choix du nombre d'adultes -->
+								  <ul class="persons">
+									  <li>
+									  <label>Ville actuelle</label>
+									  <div class="input-text">
+											<select name="adults">
+											<option value="1">ville 1</option>
+											<option value="2" selected="selected">Ville 2</option>
+											<option value="3">Ville 3</option>
+											<option value="4">Ville 4</option>
+											</select>
+										 <div class="icon"></div>
+									   </div>
+									  </li>
+									   <!-- Bouton choix du nombre d'enfant -->
+									   <li>
+									   <label>Destination</label>
+									   <div class="input-text">
+											<select name="children">
+											<option value="0">Ville 1</option>
+											<option value="1" selected="selected">Ville 2</option>
+
+											<option value="3">Ville 3</option>
+											<option value="4">Ville 4</option>
+											</select>
+										 <div class="icon"></div>
+										</div>
+									</li>
+									<!-- formulaire Chambres -->
+								   <br> <br><li class="chambres">
+									 <label>Classe</label>
+									 <div class="input-text">
+										<select name="Chambre">
+										<option value="Chambre Classique">Classe VIP</option>
+										<option value="Chambre Confort" selected="selected">Classe normale</option>
+										<option value="Chambre Deluxe">Aucune</option>
+
+										</select>
+										<div class="icon"></div>
+									 </div>
+									 </li>
+								 </ul>
+								  <!-- bouton de recherche général -->
+								  <button class="button-big" id="search"><div class="icon"></div>Rechercher</button>
+								</form>
+
+								<div class="col-md-12 col-sm-12 text-right">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight"><strong>VPS Servers</strong> Company</h2>
+										<p class="lead" data-animation="animated fadeInLeft">1 IP included with each server
+											Your Choice of any OS (CentOS, Windows, Debian, Fedora)
+											FREE Reboots</p>
+											<a href="#" class="hover-btn-new"><span>Contactez-nous</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#" class="hover-btn-new"><span>Plus d'informations</span></a>
+									</div>
+								</div>
+							</div><!-- end row -->
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<!-- Left Control -->
+			<a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Precédent</span>
+			</a>
+
+			<!-- Right Control -->
+			<a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Suivant</span>
+			</a>
+		</div>
+	</div>
+
+	<section class="page-section">
+		<div class="container">
+			 <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>Nos agences</h3>
+                    <p class="lead">Nous vous donnons l'opportunité de choisir votre agence de préfence parmis les meilleurs que nous mettons à votre disponibilité</p>
+                </div>
+            </div><!-- end title -->
+			<div class="timeline">
+				<div class="timeline__wrap">
+					<div class="timeline__items">
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-01">
+								<h2>Géneral espress voyage</h2>
+								<p></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-02">
+								<h2>2015</h2>
+								<p></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-03">
+								<h2>2014</h2>
+								<p></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-04">
+								<h2>2012</h2>
+								<p></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-01">
+								<h2>2010</h2>
+								<p></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-02">
+								<h2>2007</h2>
+								<p></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-03">
+								<h2>2004</h2>
+								<p>.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-04">
+								<h2>2002</h2>
+								<p></p>
+								<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus.</p> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <div class="parallax section dbcolor">
+        <div class="container2">
+            <div class="row3 logos">
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img th:src="@{/ProjetWebTemplate/images/téléchargement (2).png}" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img  th:src="@{/ProjetWebTemplate/images/logo_02.png}" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img  th:src="@{/ProjetWebTemplate/images/logo_03.png}" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img  th:src="@{/ProjetWebTemplate/images/logo_04.png}" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img  th:src="@{/ProjetWebTemplate/images/logo_05.png}" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img  th:src="@{/ProjetWebTemplate/images/téléchargement (5).jpg}" alt="" class="img-repsonsive"></a>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+	<footer>
+		<th:block th:replace="fragments/_footer.html::footer"></th:block>
+	</footer>
+
+	<th:block th:replace="fragments/_js.html::js"></th:block>
+
+</body>
+</html>

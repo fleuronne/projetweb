@@ -1,0 +1,32 @@
+<html xmlns:th="http://www.thymeleaf.org" >
+
+<!--************************
+-pour dire que cette page sera utilliser par notre moteur de template
+-utiliser pour inclure les blocks de code qui se repete dans index.html
+*************************/-->
+
+<th:block th:fragment="js">
+<!--inclusion des ressources en utilisant le tag thymeleaf-->
+    <!-- Modernizer for Portfolio -->
+    <script th:src="@{/ProjetWebTemplate/js/modernizer.js}"></script>
+
+    <!--[if lt IE 9]>
+    <script th:src="@{/ProjetWebTemplate/js/https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js}"></script>
+    <script th:src="@{/ProjetWebTemplate/js/https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js}"></script>
+    <![endif]-->
+    <!-- Template Main JS File -->
+    <script th:src="@{/ProjetWebTemplate/js/all.js}"></script>
+    <!-- ALL PLUGINS -->
+    <script th:src="@{/ProjetWebTemplate/js/custom.js}"></script>
+    <script th:src="@{/ProjetWebTemplate/js/timeline.min.js}"></script>
+    <script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+</th:block>
+
+</html>
